@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %meta{ :content => 'text/html; charset=utf-8', 'http-equiv' => 'Content-Type' }
+    %title= "StaticMatic | #{@link_text}"
+    = stylesheets
+  %body
+    #header
+      = link img('logo.png'), '/'
+    
+    #nav
+      = topnav
+      = subnav
+        
+    #main
+      = yield

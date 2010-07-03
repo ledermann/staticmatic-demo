@@ -1,0 +1,70 @@
+body {
+  padding: 10px;
+  background-color: #9f0000;
+  color: white;
+  font-family: "Trebuchet MS";
+  font-size: 1em; }
+
+p {
+  margin: 0 0 10px 0; }
+
+a {
+  color: white; }
+
+#header {
+  background-color: white;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px; }
+
+#nav {
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.topnav ul {
+  list-style-type: none;
+  background-color: #d20000;
+  margin: 0;
+  padding: 0 10px;
+  font-weight: bold;
+  color: white; }
+  .topnav ul li {
+    display: inline-block;
+    padding: 10px; }
+    .topnav ul li a, .topnav ul li a:visited, .topnav ul li a:focus {
+      text-decoration: none;
+      color: #cccccc; }
+    .topnav ul li.current, .topnav ul li.ancestor {
+      background-color: #888888; }
+
+.subnav {
+  float: left;
+  width: 160px;
+  margin: 10px 0 0 0; }
+  .subnav ul {
+    list-style-type: none;
+    padding: 0 5px;
+    color: white; }
+    .subnav ul li {
+      padding: 5px;
+      margin: 5px; }
+      .subnav ul li a, .subnav ul li a:visited, .subnav ul li a:focus {
+        text-decoration: none;
+        color: #cccccc; }
+      .subnav ul li.current {
+        background-color: #d72c19;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px; }
+
+#main {
+  margin: 0 20px 0 200px; }
+
+table td {
+  background: #80291e;
+  padding: 10px; }

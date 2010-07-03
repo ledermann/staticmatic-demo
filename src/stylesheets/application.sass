@@ -1,0 +1,68 @@
+@import 'css3'
+
+body
+  padding: 10px
+  background-color: #9F0000
+  color: #fff
+  font:
+    family: "Trebuchet MS"
+    size: 1em
+
+p
+  margin: 0 0 10px 0
+  
+a
+  color: #fff
+
+#header
+  background-color: white
+  padding: 10px
+  @include border-radius-top-left(5px)
+  @include border-radius-top-right(5px)
+
+#nav
+  font-family: Arial
+  font-weight: bold
+  text-transform: uppercase
+    
+.topnav ul
+  list-style-type: none
+  background-color: #D20000
+  margin: 0
+  padding: 0 10px
+  font-weight: bold
+  color: white
+  li
+    display: inline-block
+    padding: 10px
+    a, a:visited, a:focus
+      text-decoration: none
+      color: #ccc
+    &.current, &.ancestor
+      background-color: #888
+
+.subnav
+  float: left
+  width: 160px
+  margin: 10px 0 0 0
+  ul
+    list-style-type: none
+    padding: 0 5px
+    color: white
+    li
+      padding: 5px
+      margin: 5px
+      a, a:visited, a:focus
+        text-decoration: none
+        color: #ccc  
+      &.current
+        background-color: #D72C19
+        @include border-radius(5px)
+  
+#main
+  margin: 0 20px 0 200px
+
+table
+  td
+    background: #80291E    
+    padding: 10px
